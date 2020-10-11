@@ -1,0 +1,140 @@
+:root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  align-items: center;
+  background-color: rgb(197, 197, 197);
+}
+
+.register-form {
+  width: 450px;
+  border: 2px solid white;
+  padding: 30px;
+}
+.form {
+  height: 100%
+}
+.form div {
+  margin: 23px 22px;
+}
+.title {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  color: #1e75da;
+  font-weight: bolder;
+}
+.sb-btn{
+  background-color: #1e75da;
+  color: #ffffff;
+  width: 90px;
+  height: 30px;
+  outline: none;
+  margin-left: 22px;
+  font-size: 00.8em;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+input {
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 4px;
+  height: 25px;
+  width: 396px;
+  padding: 0 5px;
+  font-size: .9em
+}
+.form input.error {
+  border-color: red;
+}
+input:focus {
+  outline: none;
+}
+.note {
+  display: block;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 0.7em;
+}
+.sb-text {
+  font-size: 0.7em;
+  margin-top: 20px;
+}
+.sb-text a {
+  text-decoration: none;
+  color:#1e75da;
+}
+label {
+  display: block;
+}
+.required-field {
+  display: none;
+  position: absolute;
+  color: red;
+  font-size: 0.7em;
+  padding: 0 5px;
+}
+.hidden {
+  display: none;
+}
+.form span.required {
+  display: block;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(78, 78, 78);
+}
+.modal-content {
+  width: 300px;
+  background: white;
+  padding: 30px;
+}
+.modal button {
+  background-color:#1e75da;
+  color: #ffffff;
+  width: 90px;
+  height: 30px;
+  outline: none;
+  margin-left: 10%;
+  font-size: .8em;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.modal-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  height: 33px;
+  color: #1e75da;
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+.modal-label {
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+.modal-label div {
+  display: inline-block;
+  padding-bottom: 3px;
+  margin-right: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 80%;
+}
+.modal-input-value {
+  border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+/* * {
+  outline: rgb(0, 117, 25) 1px solid;
+} */
